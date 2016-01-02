@@ -1,4 +1,5 @@
-./tolset_p86
+tolset_p86/
+px86
 *.sw?
 *.o
 *.out
