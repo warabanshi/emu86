@@ -1,0 +1,5 @@
+./tolset_p86
+*.sw?
+*.o
+*.out
+*.bin
