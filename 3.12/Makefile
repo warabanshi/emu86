@@ -1,7 +1,7 @@
 # make for px86
 
 main: main.c 
-	gcc -m32 -Wall -o px86 main.c instruction.c modrm.c emulator_function.c
+	gcc -m32 -Wall -o px86 main.c instruction.c modrm.c emulator_function.c io.c
 
 test: test.c
 	gcc -nostdlib -fno-asynchronous-unwind-tables -g -fno-stack-protector -m32 -c test.c
